@@ -1,0 +1,55 @@
+body {
+     overflow-x: hidden;
+}
+section {
+     position: relative;
+}
+.main-body {
+     width: 100%;
+     margin-left: 200px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+.nut-them {
+     margin-top: 20px;
+     margin-left: 20px;
+}
+/* .form-add {
+      display: none; 
+*/
+.form-add-sp {
+     display: none;
+     position: absolute;
+     border: 1px solid #333;
+     width: 200px;
+     height: 130px;
+     left: 100px;
+     top: 50px;
+}
+.form-add-sp button {
+     margin-top: 20px;
+     margin-left: 10px;
+}
+.form-add-sp input {
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+}
+.form-add-color {
+     display: none;
+     position: absolute;
+     border: 1px solid #333;
+     width: 200px;
+     height: 130px;
+     left: 100px;
+     top: 300px;
+}
+.form-add-color button {
+     margin-top: 20px;
+     margin-left: 10px;
+}
+.form-add-color input {
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+}
